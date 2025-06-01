@@ -22,6 +22,6 @@ else:
     for winner in winners:
         participant_id, phone = winner
         # مخفی کردن سه رقم وسط
-        hidden_phone = phone[:4] + "***" + phone[7:]
+        hidden_phone = phone[:4] + "***" + phone[-3:]
         print(f"شرکت‌کننده شماره {participant_id} - شماره تلفن20: {hidden_phone}")
 
